@@ -95,7 +95,7 @@ class _WordSearchScreenState extends State<WordSearchScreen> {
                   ),
                   child: Center(
                     child: Text(
-                      alphabets[index - ((index / m).floor() * n)]
+                      alphabets[index - ((index / m).floor() * m)]
                           [(index / m).floor()],
                       style: TextStyle(fontSize: 32.0),
                       textAlign: TextAlign.center,
