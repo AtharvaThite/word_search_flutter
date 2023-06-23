@@ -49,7 +49,7 @@ class _GridScreenState extends State<GridScreen> {
                   height: 500,
                   child: GridView.builder(
                     shrinkWrap: true,
-                    itemCount: m * n,
+                    itemCount: n * m,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: n,
                       //childAspectRatio: 0.5,
